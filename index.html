@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>trackersAria2</title>
+		<meta name="keywords" content="aria2_tkser,aria2列表转换,arir2_bt-tracker,aria2BT服务器,aria2_trackers" />
+		<meta name="description" content="The BT server address (bt-tracker) of aria2's character processing based on the aria2 feature saves the trouble of using Excel processing,aria2的BT服务器地址(bt-tracker)根据aria2特性做的字符处理省去了用excel处理的麻烦。" />
+	</head>
+<link rel="stylesheet" href="css/index.css" charset="utf-8" />
+	<body>
+		<div class="mantop">
+			<h1><a href="http://www.tkser.tk/">aria2-BT服务器地址</a> </h1></div>
+		<div class="wordback">
+			<p class="ti">trackers列表来至
+				<a title="github-trackers" href="https://github.com/ngosang/trackerslist" rel="nofollow">github</a>
+				<br>以下只是对aria2的BT服务器地址(bt-tracker)做的快捷复制
+				<br>根据aria2特性做的字符处理省去了用excel处理的麻烦。
+                                <br>此列表不一定保证有速度，没速度可以试试改下监听端口。</p>
+			<div class="tab">
+				<span>trackers_best (推荐)</span>
+				<input type="button" onclick="loadXMLDoc('https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt')" value="获取并生成" /></div>
+			<div class="tab">
+				<span>trackers_all</span>
+				<input type="button" onclick="loadXMLDoc('https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt')" value="获取并生成" /></div>
+			<div class="tab">
+				<span>trackers_all_udp</span>
+				<input type="button" onclick="loadXMLDoc('https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_udp.txt')" value="获取并生成" /></div>
+			<div class="tab">
+				<span>trackers_all_http</span>
+				<input type="button" onclick="loadXMLDoc('https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_http.txt')" value="获取并生成" /></div>
+			<div class="tab">
+				<span>trackers_all_https</span>
+				<input type="button" onclick="loadXMLDoc('https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt')" value="获取并生成" /></div>
+			<div class="tab">
+				<span>trackers_all_ws</span>
+				<input type="button" onclick="loadXMLDoc('https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ws.txt')" value="获取并生成" /></div>
+			<p style="color:#333;">当DNS出问题后可以使用以下这些转换成IP的trackers</p>
+			<div class="tab">
+				<span>trackers_best_ip (理论上比域名的快)</span>
+				<input type="button" onclick="loadXMLDoc('https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt')" value="获取并生成" /></div>
+			<div class="tab">
+				<span>trackers_all_ip</span>
+				<input type="button" onclick="loadXMLDoc('https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt')" value="获取并生成" /></div>
+			<input type="button" id="bucopy" onclick="copyUrl2()" value="点击复制" />
+			<div class="man_tk_text">
+				<i id="icos">0</i>
+				<p id="trackertext">trackerslist生成的位置</p>
+			</div>
+			<textarea id="trackercopy"></textarea>
+		</div>
+
+	</body>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
