@@ -13,18 +13,25 @@
 			<h1><a href="https://tk.sleele.com/">aria2-BT服务器地址</a> </h1></div>
 		<div class="wordback">
 			<p class="ti">trackers列表来自
-				<a title="github-trackers" href="https://github.com/ngosang/trackerslist" rel="nofollow">ngosang/trackerslist</a>
+				<a title="ngosang-trackers" href="https://github.com/ngosang/trackerslist" rel="nofollow">ngosang/trackerslist</a>
+				<a title="XIU2-trackers" href="https://github.com/XIU2/TrackersListCollection" rel="nofollow">XIU2/TrackersListCollection</a>
 				<br>本项目源代码
 						<a title="Aria2-Trackers" href="https://github.com/SuperNG6/Aria2-Trackers" rel="nofollow">Aria2-Trackers</a>
 				<br>本人博客
 						<a title="sleele的个人博客" href="https://sleele.com" rel="nofollow">sleele的个人博客</a>
                                 <br>此列表不一定保证有速度，没速度可以试试改下监听端口。</p>
 			<div class="tab">
-				<span>trackers_best (推荐)</span>
+				<span>trackers_best</span>
 				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_best.txt')" value="获取并生成" /></div>
+			<div class="tab">
+				<span>XIU2_trackers_best (精选)</span>
+				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/best.txt')" value="获取并生成" /></div>
 			<div class="tab">
 				<span>trackers_all</span>
 				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all.txt')" value="获取并生成" /></div>
+			<div class="tab">
+				<span>XIU2_trackers_all (数量最多)</span>
+				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt')" value="获取并生成" /></div>
 			<div class="tab">
 				<span>trackers_all_udp</span>
 				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all_udp.txt')" value="获取并生成" /></div>
@@ -37,13 +44,13 @@
 			<div class="tab">
 				<span>trackers_all_ws</span>
 				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all_ws.txt')" value="获取并生成" /></div>
-			<p style="color:#333;">推荐使用已解析为IP的trackers</p>
+			<p style="color:#333;">推荐使用XIU2_trackers，包含更多国内站点</p>
 			<div class="tab">
-				<span>trackers_best_ip (理论上比域名的快)</span>
-				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_best_ip.txt')" value="获取并生成" /></div>
+				<span>XIU2_trackers_best</span>
+				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/best.txt')" value="获取并生成" /></div>
 			<div class="tab">
-				<span>trackers_all_ip</span>
-				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/ngosang/trackerslist@master/trackers_all_ip.txt')" value="获取并生成" /></div>
+				<span>XIU2_trackers_all (推荐)</span>
+				<input type="button" onclick="loadXMLDoc('https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection@master/all.txt')" value="获取并生成" /></div>
 			<input type="button" id="bucopy" onclick="copyUrl2()" value="点击复制" />
 			<div class="man_tk_text">
 				<i id="icos">0</i>
