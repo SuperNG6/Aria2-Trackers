@@ -13,4 +13,4 @@ Aria2下载BT和磁力经常会遇到没有速度这个问题，配置Trackers�
 
 
 使用教程：https://sleele.com/2019/05/12/aria2-trackers/
-![示例图片加载失败](https://raw.githubusercontent.com/SuperNG6/pic/master/pic/Xnip2019-05-12_22-45-56.png)
+![Xnip2020-10-15_15-37-37](https://cdn.jsdelivr.net/gh/SuperNG6/pic@master/uPic/2020-10-15/Xnip2020-10-15_15-37-37.png)
