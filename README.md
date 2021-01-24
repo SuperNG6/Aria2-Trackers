@@ -4,6 +4,12 @@
 
 国内：https://sleele.gitee.io/aria2-trackers/
 
+### 另外推荐一下我制作的docker-aria2  
+支持自动更新trackers及诸多扩展功能  
+目前唯一支持自定义二级或多级目录的docker-aria2  
+https://github.com/SuperNG6/docker-aria2  
+https://hub.docker.com/r/superng6/aria2  
+
 ## 2020.10.15日更新
 
         1、将数据源地址更改为jsdelivr cdn地址，现在国内访问速度大大提升，应该不会再出现无法获取trackers的情况了
